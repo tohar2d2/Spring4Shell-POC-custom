@@ -2,9 +2,135 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Reznok's Hello World Spring Application</title>
+    <title>VulneraCorp - Intentionally Vulnerable Solutions</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f5f5;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #ff4444 0%, #ff0000 100%);
+            color: white;
+            padding: 2rem;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .tagline {
+            font-style: italic;
+            opacity: 0.9;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        .section {
+            background: white;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .section h2 {
+            color: #ff0000;
+            margin-bottom: 1rem;
+            border-bottom: 2px solid #ff0000;
+            padding-bottom: 0.5rem;
+        }
+
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+            margin-top: 1.5rem;
+        }
+
+        .product-card {
+            background: #f8f8f8;
+            padding: 1.5rem;
+            border-radius: 6px;
+            border: 1px solid #ddd;
+        }
+
+        .product-card h3 {
+            color: #ff2222;
+            margin-bottom: 0.5rem;
+        }
+
+        .warning {
+            background: #fff3cd;
+            color: #856404;
+            padding: 1rem;
+            border-radius: 6px;
+            margin-top: 2rem;
+            border: 1px solid #ffeeba;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            background: #333;
+            color: white;
+            margin-top: 2rem;
+        }
+    </style>
 </head>
 <body>
-    Hello World! Exploit me!
+    <header class="header">
+        <h1>VulneraCorp</h1>
+        <p class="tagline">Where Security is Optional™</p>
+    </header>
+
+    <div class="container">
+        <section class="section">
+            <h2>About Us</h2>
+            <p>Welcome to VulneraCorp, the world's leading provider of intentionally vulnerable software solutions. Since our inception in 2023, we've been committed to pushing the boundaries of what's possible in insecure software development.</p>
+        </section>
+
+        <section class="section">
+            <h2>Our Mission</h2>
+            <p>At VulneraCorp, our mission is simple: to create the most educational security vulnerabilities in enterprise software. We believe that the best way to learn about security is to experience it firsthand, and we're here to help!</p>
+        </section>
+
+        <section class="section">
+            <h2>Our Products</h2>
+            <div class="products">
+                <div class="product-card">
+                    <h3>Spring4Shell Showcase</h3>
+                    <p>Experience the thrill of remote code execution with our flagship Spring4Shell vulnerable application. Perfect for security training and penetration testing practice.</p>
+                </div>
+                <div class="product-card">
+                    <h3>SQLi Paradise</h3>
+                    <p>A carefully crafted application featuring various SQL injection vulnerabilities. Because who needs input validation anyway?</p>
+                </div>
+                <div class="product-card">
+                    <h3>XSS Playground</h3>
+                    <p>Test your cross-site scripting skills in our zero-sanitization environment. Comes with absolutely no input validation!</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>© 2024 VulneraCorp - Proudly making software vulnerable since 2024</p>
+    </footer>
 </body>
 </html>

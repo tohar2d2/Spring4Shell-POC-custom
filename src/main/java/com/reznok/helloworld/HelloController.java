@@ -9,13 +9,13 @@ import org.springframework.web.bind.annotation.PostMapping;
 @Controller
 public class HelloController {
 
-    @GetMapping("/greeting")
+    @GetMapping("/")
     public String greetingForm(Model model) {
         model.addAttribute("greeting", new Greeting());
         return "hello";
     }
 
-    @PostMapping("/greeting")
+    @PostMapping("/")
     public String greetingSubmit(@ModelAttribute Greeting greeting, Model model) {
         return "hello";
     }

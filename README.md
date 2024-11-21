@@ -1,6 +1,6 @@
 # Spring4Shell PoC Application
 
-This is a dockerized application that is vulnerable to the Spring4Shell vulnerability (CVE-2022-22965). Full Java source for the war is provided and modifiable, the war will get re-built whenever the docker image is built. The built WAR will then be loaded by Tomcat. There is nothing special about this application, it's a simple hello world that's based off [Spring tutorials](https://spring.io/guides/gs/handling-form-submission/).
+This is a dockerized application that is vulnerable to the Spring4Shell vulnerability (CVE-2022-22965). Full Java source for the war is provided and modifiable, the war will get re-built whenever the docker image is built. The built WAR will then be loaded by Tomcat. ~~There is nothing special about this application, it's a simple hello world that's based off [Spring tutorials](https://spring.io/guides/gs/handling-form-submission/)~~ It's a landing page for a fictional company that makes purposefully vulnerable apps (Forked to make this).
 
 
 Details: https://www.lunasec.io/docs/blog/spring-rce-vulnerabilities
